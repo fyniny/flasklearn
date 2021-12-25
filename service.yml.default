@@ -1,0 +1,5 @@
+services:
+  - name: web
+    url: http://127.0.0.1:9999/healthcheck
+    start_cmd: /usr/bin/python3 ${youpath}/main.py --start -d
+    user: ${youuser}
